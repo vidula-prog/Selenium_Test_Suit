@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ProductAutomation:jar2" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f148aacc-24c7-4c5f-bb8f-b84279a1ee49" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02_05/.idea/02_05.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Product spec/Product spec.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Product spec/src/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_02/start/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02_02/start/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_02/start/target/test-classes/KeyboardAndMouseInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/../02_02/start/target/test-classes/KeyboardAndMouseInput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_02/start/test/KeyboardAndMouseInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/../02_02/start/test/KeyboardAndMouseInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dropdown.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProductAutomation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Dropdown.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Dropdown.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="G:\Exercise Files\04_04\start\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aWID6wbKzHWbolevCv0A4lmNAV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Exercise Files/04_05/start" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Exercise Files\04_04\start\test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ProductTest.performProductTest">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="ProductTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProductTest" />
+      <module name="ProductAutomation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProductAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProductTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductTest.performProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProductAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProductTest" />
+      <option name="METHOD_NAME" value="performProductTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProductTest.performProductTest" />
+        <item itemvalue="JUnit.ProductTest" />
+        <item itemvalue="Application.ProductTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f148aacc-24c7-4c5f-bb8f-b84279a1ee49" name="Default" comment="" />
+      <created>1521333008824</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1521333008824</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="24" key="#Inspections" timestamp="1587733729424">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="24" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1587733729424" />
+    <state x="275" y="24" key="#Project_Structure" timestamp="1587645079030">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="24" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1587645079030" />
+    <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587732454445">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1587732454445" />
+    <state x="463" y="71" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1587603913412">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="71" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.728@0.0.1366.728" timestamp="1587603913412" />
+    <state x="413" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1587645428529">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1587645428529" />
+    <state x="534" y="255" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1586844828607">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="534" y="255" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1586844828607" />
+    <state width="422" height="466" key="DebuggerActiveHint" timestamp="1587621426066">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="422" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1587621426066" />
+    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1587709944269">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587709944269" />
+    <state width="1322" height="336" key="GridCell.Tab.0.bottom" timestamp="1587736026364">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="336" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587736026364" />
+    <state width="1322" height="336" key="GridCell.Tab.0.center" timestamp="1587736026364">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="336" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587736026364" />
+    <state width="1322" height="336" key="GridCell.Tab.0.left" timestamp="1587736026364">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="336" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587736026364" />
+    <state width="1322" height="336" key="GridCell.Tab.0.right" timestamp="1587736026364">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="336" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587736026364" />
+    <state width="1304" height="216" key="GridCell.Tab.1.bottom" timestamp="1587622575099">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1304" height="216" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587622575099" />
+    <state width="1304" height="216" key="GridCell.Tab.1.center" timestamp="1587622575099">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1304" height="216" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1587622575099" />
+    <state width="1304" height="216" key="GridCell.Tab.1.left" timestamp="1587622575099">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1304" height="216" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1587622575099" />
+    <state width="1304" height="216" key="GridCell.Tab.1.right" timestamp="1587622575099">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1304" height="216" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1587622575099" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1587645443716">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587645443716" />
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1588416418719">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1588416418719" />
+    <state x="387" y="264" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1587604235322">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="387" y="264" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1587604235322" />
+    <state x="350" y="25" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587618656245">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="350" y="25" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1587618656245" />
+    <state x="454" y="83" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587604060206">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="454" y="83" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1587604060206" />
+    <state x="0" y="0" width="709" height="728" key="find.popup" timestamp="1587646177038">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" width="709" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1587646177038" />
+    <state x="112" y="0" key="new project wizard" timestamp="1588420641814">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="112" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1588420641814" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ProductAutomation$ProductTest.ic" NAME="ProductTest Coverage Results" MODIFIED="1587732191739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
