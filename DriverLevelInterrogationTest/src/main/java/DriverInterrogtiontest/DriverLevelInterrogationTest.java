@@ -1,3 +1,5 @@
+package DriverInterrogtiontest;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
@@ -9,6 +11,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.Assert.assertTrue;
+
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.pagefactory.ByChained;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -23,7 +28,7 @@ final private String URL ="http://www.teknosa.com/";
 
 @BeforeClass
 public static void SteupTest() {
- System.setProperty("webdriver.chrome.driver","G:\\chromedriver.exe");
+ System.setProperty("webdriver.chrome.driver","D:\\chromedriver.exe");
     driver = new ChromeDriver();    }
 
    @BeforeClass
@@ -120,6 +125,40 @@ public void T03_getPagesource(){
         //Assert that text box is empty
         assertThat(h3TagCount, is(6));
     }
+    @Test
+    public void T10_chainingwithByChain(){
+    //Naviaget to Linkedin
+        driver.navigate().to("https://www.linkedin.com/");
+        WebElement element;
+        element = driver.findElement(
+                new ByChained(
+                        By.className("Link"),By.linkText("About")));
+assertThat(element.getAttribute("href"),is("https://www.linkedin.com/about-us?trk=uno-reg-guest-home-about") );
+
+
+
+    }
+@Test
+
+public void T11_chainingbyFindelement(){
+    //navigat eto linkedin
+    driver.navigate().to("https://www.linkedin.com/");
+    WebElement chainingfindelement = driver.findElement(By.className("link")).findElement(By.linkText("About"));
+    assertThat(chainingfindelement.getAttribute("href"),is(""));
+}
+
+@Test
+public void T12_FindelementByXpath(){
+    driver.navigate().to("https://www.linkedin.com/");
+    WebElement ElementByXpath = driver.findElement(By.xpath("//class[@]"));
+    assertThat(ElementByXpath.getText(), is("Sign In"));
+    String Bcolor = driver.findElement(By.xpath("//class[@]")).getCssValue("background-color");
+    
+    //Actions action = new Actions(driver);
+    //WebElement menu = driver.findElement(By.id("test"));
+    //action.moveToElement(menu).moveToElement(driver.findElement(By.xpath(""))).click();
+
+}
 
     @Test
     public void T10_NosuchElement(){
@@ -136,6 +175,7 @@ public void T03_getPagesource(){
     }
 @AfterClass // quit the browser
 public static void quitdriver(){
+
     driver.quit();
 }
 
