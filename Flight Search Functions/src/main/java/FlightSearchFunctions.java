@@ -57,14 +57,6 @@ public class FlightSearchFunctions {
         dd.click();
     }
 
-    /*@Test(priority = 4)
-    public void automateSource() throws InterruptedException {
-        driver.manage().timeouts().implicitlyWait(2000, TimeUnit.MILLISECONDS);
-        WebElement From = driver.findElement(By.xpath("//input[@id='location_from_code']"));
-        From.click();
-        From.sendKeys("{\"code\":\"ABC\",\"location\":\"\"}");
-        From.sendKeys(Keys.TAB);
-    }*/
 
     @Test(priority = 5)
     public void automateDepartDate() throws InterruptedException, AWTException {
@@ -76,8 +68,8 @@ public class FlightSearchFunctions {
         //Thread.sleep(2000);
         /*wait = new WebDriverWait(driver, 20);
         wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("body.with-waypoint-sticky:nth-child(2) div.datepickers-container:nth-child(8) div.datepicker.-bottom-left-.-from-bottom-:nth-child(8) nav.datepicker--nav div.datepicker--nav-title:nth-child(2) > i:nth-child(1)")));
-        */WebElement jul = driver.findElement(By.cssSelector("body.with-waypoint-sticky:nth-child(2) div.datepickers-container:nth-child(8) div.datepicker.-bottom-left-.-from-bottom-:nth-child(8) nav.datepicker--nav div.datepicker--nav-title:nth-child(2) > i:nth-child(1)"));
-        jul.click();
+        //WebElement jul = driver.findElement(By.cssSelector("body.with-waypoint-sticky:nth-child(2) div.datepickers-container:nth-child(8) div.datepicker.-bottom-left-.-from-bottom-:nth-child(8) nav.datepicker--nav div.datepicker--nav-title:nth-child(2) > i:nth-child(1)"));
+        //jul.click();
         /*wait = new WebDriverWait(driver, 20);
         wait.until(ExpectedConditions.elementToBeClickable(By.name("pickupdate")));
         driver.findElement(By.name("pickupdate")).sendKeys("29/06/2020");*/
@@ -98,7 +90,9 @@ public class FlightSearchFunctions {
         robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
         Thread.sleep(2000);
         //Robot.mousePress(InputEvent.BUTTON1_MASK);
-        robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+        //robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+        robot.keyPress(KeyEvent.VK_ENTER);
+
 
         /*WebElement element1 = driver.findElement(By.cssSelector(".datepicker--nav-title"));
         ((JavascriptExecutor)driver).executeScript("arguments[0].click();", element1);*/
@@ -115,9 +109,9 @@ public class FlightSearchFunctions {
     public void automateReturnDate() throws AWTException, InterruptedException {
         driver.manage().timeouts().implicitlyWait(2000, TimeUnit.MILLISECONDS);
         //Select "Depart  date as current date
-        WebDriverWait wait = new WebDriverWait(driver, 20);
-        wait.until(ExpectedConditions.elementToBeClickable(By.id("FlightsDateEnd")));
-        driver.findElement(By.id("FlightsDateEnd")).click();
+        /*WebDriverWait wait = new WebDriverWait(driver, 20);
+        wait.until(ExpectedConditions.elementToBeClickable(By.id("FlightsDateEnd")));*/
+        driver.findElement(By.id("FlightsDateEnd"));
         Thread.sleep(2000);
         Robot robot = new Robot();
         Thread.sleep(2000);
@@ -131,13 +125,31 @@ public class FlightSearchFunctions {
         Thread.sleep(2000);
         robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
         Thread.sleep(2000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(2000);
         //Robot.mousePress(InputEvent.BUTTON1_MASK);
-        robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+        //robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
         /*driver.findElement(By.id("FlightsDateEnd")).sendKeys("2020-08-11");
         driver.findElement(By.id("FlightsDateEnd")).click();*/
     }
+    /*@Test(priority = 7)
+    public void T06_SelectType() {
+        driver.manage().timeouts().implicitlyWait(2000, TimeUnit.MILLISECONDS);
+        //Add "Adults" ,"Child" and"InFAT"
+        WebElement Adult = driver.findElement(By.cssSelector(".btn.btn-white.bootstrap-touchspin-up "));
+        Adult.click();
+        WebElement Child = driver.findElement(By.xpath("//div[@id='flights']//div[2]//div[1]//div[2]//div[1]//span[1]//button[1]"));
+        WebDriverWait wait = new WebDriverWait(driver, 20);
+        wait.until(ExpectedConditions.elementToBeClickable(Child));
+        Child.click();
+        WebElement InFant = driver.findElement(By.xpath("//body//div[@id='flights']//div//div//div//div//div//div[3]//div[1]//div[2]//div[1]//span[1]//button[1]"));
+        wait = new WebDriverWait(driver, 20);
+        wait.until(ExpectedConditions.elementToBeClickable(InFant));
+        InFant.click();
+    }*/
 
-    @Test(priority = 7)
+
+    @Test(priority = 8)
     public void automateSearchButton() {
         WebElement Search = driver.findElement(By.xpath("//div[@class='col-xs-12 col-md-12']//button[@class='btn-primary btn btn-block'][contains(text(),'Search')]"));
         Search.submit();
@@ -176,6 +188,6 @@ public class FlightSearchFunctions {
 
     @AfterClass
     public void QuitBrowser(){
-        //driver.quit();
+        driver.quit();
     }
 }
