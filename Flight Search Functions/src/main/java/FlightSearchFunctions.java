@@ -65,20 +65,7 @@ public class FlightSearchFunctions {
         WebDriverWait wait = new WebDriverWait(driver, 20);
         wait.until(ExpectedConditions.elementToBeClickable(By.id("FlightsDateStart")));
         driver.findElement(By.id("FlightsDateStart")).click();
-        //Thread.sleep(2000);
-        /*wait = new WebDriverWait(driver, 20);
-        wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("body.with-waypoint-sticky:nth-child(2) div.datepickers-container:nth-child(8) div.datepicker.-bottom-left-.-from-bottom-:nth-child(8) nav.datepicker--nav div.datepicker--nav-title:nth-child(2) > i:nth-child(1)")));
-        //WebElement jul = driver.findElement(By.cssSelector("body.with-waypoint-sticky:nth-child(2) div.datepickers-container:nth-child(8) div.datepicker.-bottom-left-.-from-bottom-:nth-child(8) nav.datepicker--nav div.datepicker--nav-title:nth-child(2) > i:nth-child(1)"));
-        //jul.click();
-        /*wait = new WebDriverWait(driver, 20);
-        wait.until(ExpectedConditions.elementToBeClickable(By.name("pickupdate")));
-        driver.findElement(By.name("pickupdate")).sendKeys("29/06/2020");*/
-        /*JavascriptExecutor js = (JavascriptExecutor)driver;
-        String script = " return document.getElementsByClassName(\"datepicker--nav-title\").value;";
-        String text = (String) js.executeScript(script);*/
-        //driver.findElement(By.cssSelector("body.with-waypoint-sticky:nth-child(2) div.datepickers-container:nth-child(8) div.datepicker.-bottom-left-.-from-bottom-:nth-child(8) nav.datepicker--nav div.datepicker--nav-title:nth-child(2) > i:nth-child(1)"));
-        //((JavascriptExecutor) driver).executeScript("document.getElementsByClassName(\"datepicker--nav-title\").value;");
-        //new WebDriverWait(driver,20).until(ExpectedConditions.elementToBeClickable(By.xpath("//div[8]//nav[1]//div[2]"))).click();
+
         Robot robot = new Robot();
         Thread.sleep(2000);
         robot.keyPress(KeyEvent.VK_DOWN);
@@ -127,10 +114,7 @@ public class FlightSearchFunctions {
         Thread.sleep(2000);
         robot.keyPress(KeyEvent.VK_ENTER);
         Thread.sleep(2000);
-        //Robot.mousePress(InputEvent.BUTTON1_MASK);
-        //robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
-        /*driver.findElement(By.id("FlightsDateEnd")).sendKeys("2020-08-11");
-        driver.findElement(By.id("FlightsDateEnd")).click();*/
+
     }
     /*@Test(priority = 7)
     public void T06_SelectType() {
@@ -155,36 +139,6 @@ public class FlightSearchFunctions {
         Search.submit();
     }
 
-    /*@Test
-    public void automateDestination() throws InterruptedException {
-        driver.manage().timeouts().implicitlyWait(2000, TimeUnit.MILLISECONDS);
-        WebElement From = driver.findElement(By.xpath("//input[@id='location_from_code']"));
-        From.click();
-        From.sendKeys("{\"code\":\"ABC\",\"location\":\"\"}");
-        From.sendKeys(Keys.TAB);
-    }
-
-    @Test
-    public void automateDepartDate() {
-        driver.manage().timeouts().implicitlyWait(2000, TimeUnit.MILLISECONDS);
-        //Select "Depart  date as current date
-        WebDriverWait wait = new WebDriverWait(driver, 20);
-        wait.until(ExpectedConditions.elementToBeClickable(By.id("FlightsDateStart")));
-        driver.findElement(By.id("FlightsDateStart")).click();
-        driver.findElement(By.id("FlightsDateStart")).sendKeys("2020-07-11");
-    }
-
-    @Test
-    public void automateReturnDate() {
-        driver.manage().timeouts().implicitlyWait(2000, TimeUnit.MILLISECONDS);
-        //Select "Depart  date as current date
-        WebDriverWait wait = new WebDriverWait(driver, 20);
-        wait.until(ExpectedConditions.elementToBeClickable(By.id("FlightsDateStart")));
-        driver.findElement(By.id("FlightsDateStart")).click();
-        driver.findElement(By.id("FlightsDateStart")).sendKeys("2020-07-11");
-    }
-
-    */
 
     @AfterClass
     public void QuitBrowser(){
